@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 
-
-
 class MainScreen extends StatefulWidget {
   @override
   _MainScreenState createState() => _MainScreenState();
 }
-
-
 
 class _MainScreenState extends State<MainScreen> {
   @override
@@ -15,6 +11,7 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Main Screen"),
+        centerTitle: true,
       ),
     );
   }

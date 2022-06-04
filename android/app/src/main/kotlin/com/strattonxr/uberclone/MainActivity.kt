@@ -1,4 +1,4 @@
-package com.muhammadali.rider_app
+package strattonxr.com.uberclone
 
 import io.flutter.embedding.android.FlutterActivity
 
