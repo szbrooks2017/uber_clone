@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:uber_clone/AllScreens/registration.dart';
 
 class LoginScreen extends StatelessWidget {
+  static const String idScreen = "loginScreen";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -86,7 +88,8 @@ class LoginScreen extends StatelessWidget {
                     textStyle: const TextStyle(fontSize: 13.0)),
                 child: const Text('Do not have an account? Register here.'),
                 onPressed: () {
-                  print("clicked");
+                  Navigator.pushNamedAndRemoveUntil(
+                      context, RegistrationScreen.idScreen, (route) => false);
                 },
               ),
             ], // children of column

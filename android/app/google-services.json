@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "144814382756",
+    "firebase_url": "https://uber-clone-e445f-default-rtdb.firebaseio.com",
     "project_id": "uber-clone-e445f",
     "storage_bucket": "uber-clone-e445f.appspot.com"
   },
@@ -29,6 +30,13 @@
             {
               "client_id": "144814382756-1gbfl7224jes3q585la5mf0hjbeo7fr4.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "144814382756-6gfg9me85379vvdlu87bta291dendp9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "strattonxr.com.uberclone"
+              }
             }
           ]
         }
